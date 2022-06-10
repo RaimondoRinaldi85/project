@@ -331,8 +331,11 @@ ul li a {
   ul li {
     margin: 15px;
   }
+  #landing h1 {
+    font-size: 1.2rem;
+  }
   #landing p {
-    font-size: .9rem;
+    font-size: .7rem;
   }
   #about {
     width: 100%;
