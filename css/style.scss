@@ -20,7 +20,7 @@ html {
 /*nav*/
 
 nav {
-    background: white;
+    background: #73BCEB;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,7 +31,7 @@ nav {
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.301);
 
     h1 {
-        color: black;
+        color: white;
         font-size: 1.5rem;
         letter-spacing: .3rem;
         text-transform: uppercase;
@@ -58,7 +58,7 @@ nav {
 }
 
 .burger .bar {
-    background-color: black;
+    background-color: white;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0deg);
@@ -92,7 +92,7 @@ ul {
 
         a {
             margin-right: 1rem;
-            color: black;
+            color: white;
             position: relative;
             font-size: 1.2rem;
             text-decoration: none;
@@ -123,10 +123,6 @@ ul {
         color: white;
         margin-bottom: .5rem;
         text-shadow: 5px 5px 1rem rgba(0, 0, 0, 0.655);
-
-        span {
-            animation: show ease-in-out forwards 2s;
-        }
     }
 
     p {
@@ -152,18 +148,19 @@ ul {
 /*About*/
 
 #about {
-    background-color: #efefef;
-    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.5);
+    background-color: #73BCEB;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.234);
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
     width: 80%;
-    margin: 0 auto;
+    margin: 2rem auto 0 auto;
+    border-radius: 5px;
 
     h1 {
         font-size: 3.5rem;
-        color: #757575;
+        color: #fff;
         font-weight: 400;
         margin-top: 5rem;
         text-transform: uppercase;
@@ -176,6 +173,7 @@ ul {
         align-items: center;
 
         p {
+            color: #fff;
             text-align: right;
             font-size: 1.2rem;
             margin: 0 auto 2rem auto;
@@ -254,6 +252,29 @@ ul {
 
 /*end Affiliates*/
 
+/*Passion*/
+#passion {
+    background-color: #73BCEB;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+
+    img {
+        width: 250px;
+    }
+
+    p {
+        width: 50%;
+        margin-top: 3rem;
+        color: white;
+        text-align: center;
+    }
+}
+
+/*end Passion*/
 
 
 
@@ -325,7 +346,7 @@ ul {
     }
 
     ul {
-        background: white;
+        background: #73BCEB;
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
         flex-direction: column;
         text-align: center;
@@ -340,7 +361,7 @@ ul {
 
     ul.show {
         transform: translateX(0);
-        background: white;
+        background: #73BCEB;
     }
 
     ul li {
@@ -358,6 +379,7 @@ ul {
     }
 
     #about {
+        margin: 0 auto;
         width: 100%;
 
         h1 {
@@ -398,6 +420,13 @@ ul {
             .cards {
                 flex-direction: column;
             }
+        }
+    }
+
+    #passion {
+
+        p {
+            width: 100%;
         }
     }
 
